@@ -459,10 +459,6 @@ main.loaded {
         gap: 10px;
     }
 
-    .time-box {
-        width: 70px;
-    }
-
     .time-box h2 {
         font-size: 2rem;
     }
