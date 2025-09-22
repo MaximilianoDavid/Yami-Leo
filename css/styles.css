@@ -378,52 +378,54 @@ body {
 @media (max-width: 768px) {
     .title {
         font-size: 4.2rem;
-
-        .countdown {
-            gap: 10px;
-        }
-
-        .time-box {
-            width: 60px;
-        }
-
-        .time-box h2 {
-            font-size: 2rem;
-        }
     }
 
-    @media (max-width: 480px) {
-        .title {
-            font-size: 3.3rem;
-        }
-
-        .countdown {
-            gap: 10px;
-        }
-
-        .time-box {
-            width: 60px;
-        }
-
-        .time-box h2 {
-            font-size: 2.2rem;
-        }
+    .countdown {
+        gap: 10px;
     }
 
-
-    /* Animación con keyframe llamada "latidos" */
-    @keyframes latidos {
-        0% {
-            transform: scale(1);
-        }
-
-        50% {
-            transform: scale(1.4);
-        }
-
-        100% {
-            transform: scale(1);
-        }
+    .time-box {
+        width: 60px;
     }
+
+    .time-box h2 {
+        font-size: 2rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+    .title {
+        font-size: 3.3rem;
+    }
+
+    .countdown {
+        gap: 10px;
+    }
+
+    .time-box {
+        width: 60px;
+    }
+
+    .time-box h2 {
+        font-size: 2.2rem;
+    }
+}
+
+
+/* Animación con keyframe llamada "latidos" */
+@keyframes latidos {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
 
 }
