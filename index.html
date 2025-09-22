@@ -24,6 +24,9 @@
     <!-- Animate CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
 
+    <!-- AOS CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+
     <!-- Styles -->
     <link rel="stylesheet" href="css/styles.css">
 
@@ -64,7 +67,7 @@
 
         <!-- Subtítulo e invitación -->
         <section class="section-front-end">
-            <img src="images/icons/anillos.png">
+            <img src="images/icons/anillos.png" data-aos="zoom-out">
             <p class="title-paragraph">
                 Un sueño compartido se convierte en realidad con un “Sí”. <br>
                 Nuestros caminos se unen en uno, y nada nos haría más felices que tenerlos cerca para celebrar este
@@ -75,8 +78,8 @@
 
         <!-- Contador regresivo -->
         <section class="section-countdown">
-            <h2 class="subtitle-paragraph">Faltan...</h2>
-            <div class="countdown">
+            <h2 class="subtitle-paragraph" data-aos="zoom-out">Faltan...</h2>
+            <div class="countdown" data-aos="fade-down">
                 <div class="time-box">
                     <h2 id="days" class="mb-0">0</h2>
                     <span>Días</span>
@@ -178,7 +181,7 @@
         <section class="section-info">
             <div class="ceremonia text-center">
                 <div class="ceremonia-title">
-                    <img src="images/icons/copas2.png" alt="" style="width: 50%;">
+                    <img src="images/icons/copas2.png" data-aos="zoom-out" style="width: 50%;">
                     <p data-aos="zoom-in-up">Te esperamos para celebrar nuestra boda.</p>
                 </div>
 
@@ -232,7 +235,6 @@
     </script>
 
     <!-- Control User-Agent -->
-
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const isMobile = /android|iphone|ipad|ipod/i.test(navigator.userAgent);
@@ -249,6 +251,7 @@
         });
     </script>
 
+    <!-- Loader Js -->
     <script>
         document.addEventListener("DOMContentLoaded", function () {
             const loader = document.getElementById("start-loader");
@@ -279,7 +282,13 @@
         });
     </script>
 
-
+    <!-- AOS Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once: false
+        });
+    </script>
 
 
     <!-- Particles -->
