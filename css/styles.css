@@ -66,8 +66,14 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
+    z-index: 1;
+}
+
+.section-central .btn-play .btns {
     z-index: 2;
 }
+
+
 
 @keyframes luz {
     0% {
@@ -101,7 +107,6 @@ body {
 
 .barra-decoracion-top img {
     position: absolute;
-    z-index: 1;
     width: 100%;
     right: 0;
     top: -5px;
@@ -109,13 +114,14 @@ body {
 
 .barra-decoracion-botton img {
     position: absolute;
-    z-index: 1;
     width: 100%;
     right: 0;
     bottom: -10px;
 }
 
-
+.barra-decoracion-top .barra-decoracion-botton {
+    z-index: 1;
+}
 
 
 /* --------------------------
@@ -315,8 +321,8 @@ body {
     height: 70px;
     animation: latidos 2s infinite;
     transform-origin: center;
-    z-index: 2;
 }
+
 
 .btn:hover {
     background-color: #911f27;
@@ -329,8 +335,8 @@ body {
     flex-direction: column; */
     position: relative;
     padding-bottom: 50px;
-    z-index: 2;
 }
+
 
 /* --------------------------
    LÍNEA DE TIEMPO
