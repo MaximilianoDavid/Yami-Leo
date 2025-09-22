@@ -103,6 +103,21 @@ body {
 
 
 
+/* Animación con keyframe llamada "latidos" */
+@keyframes latidos {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.4);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
 
 @keyframes luz {
     0% {
@@ -369,6 +384,38 @@ body {
 /* --------------------------
    RESPONSIVE
 --------------------------- */
+
+
+@media (max-width: 1620px) {
+    .section-front .title {
+        font-size: 7.5rem;
+    }
+
+    .section-front .subtitle {
+        font-size: 3.5rem;
+        left: 145px;
+        bottom: 75px;
+    }
+
+    .time-box {
+        background-size: 120px;
+        height: 90px;
+        width: 130px;
+    }
+
+    .time-box span {
+        font-size: 2rem;
+    }
+
+    .time-box h2 {
+        font: bold 50px / 1 arial;
+        font-family: 'Great Vibes';
+        text-transform: uppercase;
+        text-shadow: 0 2px 0 #322705;
+        margin-top: 25px;
+    }
+}
+
 @media (max-width: 1080px) {
     .title {
         font-size: 4.5rem;
@@ -421,21 +468,5 @@ body {
 
     .time-box h2 {
         font-size: 2.2rem;
-    }
-}
-
-
-/* Animación con keyframe llamada "latidos" */
-@keyframes latidos {
-    0% {
-        transform: scale(1);
-    }
-
-    50% {
-        transform: scale(1.4);
-    }
-
-    100% {
-        transform: scale(1);
     }
 }
