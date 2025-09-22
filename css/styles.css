@@ -394,7 +394,7 @@ body {
 
 }
 
-@media (max-width: 480px) {
+@media (max-width: 520px) {
     .title {
         font-size: 3.3rem;
     }
