@@ -418,7 +418,13 @@ body {
 
 @media (max-width: 1080px) {
     .title {
-        font-size: 4.5rem;
+        font-size: 6.5rem;
+    }
+
+    .section-front .subtitle {
+        font-size: 2.5rem;
+        left: 150px;
+        bottom: 75px;
     }
 
     .countdown {
@@ -436,7 +442,13 @@ body {
 
 @media (max-width: 768px) {
     .title {
-        font-size: 4.2rem;
+        font-size: 4.5rem;
+    }
+
+    .section-front .subtitle {
+        font-size: 2.2rem;
+        left: 100px;
+        bottom: 65px;
     }
 
     .countdown {
@@ -455,18 +467,25 @@ body {
 
 @media (max-width: 520px) {
     .title {
-        font-size: 4rem;
+        font-size: 3.5em;
     }
 
-    .countdown {
-        gap: 10px;
+    .section-front .subtitle {
+        font-size: 2.0rem;
+        left: 70px;
+        bottom: 60px;
     }
+}
 
-    .time-box {
-        width: 60px;
-    }
+.countdown {
+    gap: 10px;
+}
 
-    .time-box h2 {
-        font-size: 2.2rem;
-    }
+.time-box {
+    width: 60px;
+}
+
+.time-box h2 {
+    font-size: 2.2rem;
+}
 }
