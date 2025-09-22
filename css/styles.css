@@ -72,8 +72,30 @@ body {
 .section-central,
 .btn-play,
 .btns {
-    z-index: 2;
+    z-index: 3;
 }
+
+/* --------------------------
+   CAROUSEL
+--------------------------- */
+
+
+.barra-decoracion-top img {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    z-index: 2;
+    top: -5px;
+}
+
+.barra-decoracion-botton img {
+    position: absolute;
+    width: 100%;
+    right: 0;
+    z-index: 2;
+    bottom: -10px;
+}
+
 
 
 
@@ -100,29 +122,6 @@ body {
     opacity: 0.2;
     animation: luz var(--tiempo-animacion) infinite alternate;
     box-shadow: 0 0 10px #ccc5b5, 0 0 20px #ccc5b5, 0 0 30px #dbc48a, 0 0 40px #dbc48a;
-}
-
-/* --------------------------
-   CAROUSEL
---------------------------- */
-
-
-.barra-decoracion-top img {
-    position: absolute;
-    width: 100%;
-    right: 0;
-    top: -5px;
-}
-
-.barra-decoracion-botton img {
-    position: absolute;
-    width: 100%;
-    right: 0;
-    bottom: -10px;
-}
-
-.barra-decoracion-top .barra-decoracion-botton {
-    z-index: 2;
 }
 
 
