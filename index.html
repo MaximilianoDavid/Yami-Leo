@@ -4,13 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta property="og:title" content="Yamila & Leonardo" />
+    <meta property="og:title" content="Yamila & Leo" />
     <meta name="description" content="¡Estás invitado a nuestra boda!" />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="images/logo.png" />
+    <meta property="og:image" content="images/portada.png" />
     <link rel="icon" href="images/icons/favicon.ico">
 
-    <title>Invitación de Boda - Yamila & Leonardo</title>
+    <title>¡Nos casamos! - Yamila & Leo</title>
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Roboto:wght@300;400;700&display=swap"
@@ -192,7 +192,21 @@
 
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>AOS.init();</script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const isMobile = /android|iphone|ipad|ipod/i.test(navigator.userAgent);
 
+            if (!isMobile) {
+                // Si NO es móvil, reemplaza el contenido con un aviso
+                document.body.innerHTML = `
+            <div style="display:flex; flex-direction:column; align-items:center; justify-content:center; height:100vh; text-align:center; font-family:sans-serif; padding:20px;">
+                <h2>Invitación disponible solo en dispositivos móviles ✨📱</h2>
+                <p>Por favor, abrí este enlace desde tu teléfono celular (Android o iPhone) para ver la tarjeta de boda.</p>
+            </div>
+        `;
+            }
+        });
+    </script>
     <script>
         var particulas = document.getElementById('particulas');
 
