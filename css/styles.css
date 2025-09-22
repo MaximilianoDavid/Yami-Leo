@@ -12,6 +12,21 @@ html {
     box-sizing: border-box;
 }
 
+
+.loader {
+    width: 60px;
+    aspect-ratio: 4;
+    background: radial-gradient(circle closest-side, #fff 90%, #0000) 0/calc(100%/3) 100% space;
+    clip-path: inset(0 100% 0 0);
+    animation: l1 1s steps(4) infinite;
+}
+
+@keyframes l1 {
+    to {
+        clip-path: inset(0 -34% 0 0)
+    }
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     background-color: #5E1A33;
@@ -19,6 +34,18 @@ body {
     line-height: 1.6;
     text-align: center;
 }
+
+main {
+    filter: blur(5px);
+    transition: filter 0.8s ease-in-out;
+}
+
+main.loaded {
+    filter: unset;
+    /* elimina el blur completamente */
+}
+
+
 
 /* --------------------------
    PORTADA PRINCIPAL
