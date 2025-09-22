@@ -184,7 +184,7 @@ body {
 }
 
 .time-box span {
-    font-size: 1rem;
+    font-size: 1.5rem;
     background: #EDCE7C;
     background: linear-gradient(to bottom, #EDCE7C 15%, #B88414 100%);
     background-clip: text;
@@ -478,7 +478,7 @@ body {
 }
 
 .countdown {
-    gap: 10px;
+    gap: 30px;
 }
 
 .time-box {
