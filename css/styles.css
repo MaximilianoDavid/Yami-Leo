@@ -358,6 +358,10 @@ body {
     padding-bottom: 50px;
 }
 
+.btns svg {
+    margin-right: 5px;
+}
+
 
 /* --------------------------
    LÍNEA DE TIEMPO
@@ -385,40 +389,9 @@ body {
    RESPONSIVE
 --------------------------- */
 
-
-/* @media (max-width: 1620px) {
-    .section-front .title {
-        font-size: 7.5rem;
-    }
-
-    .section-front .subtitle {
-        font-size: 3.5rem;
-        left: 145px;
-        bottom: 75px;
-    }
-
-    .time-box {
-        background-size: 120px;
-        height: 90px;
-        width: 130px;
-    }
-
-    .time-box span {
-        font-size: 2rem;
-    }
-
-    .time-box h2 {
-        font: bold 50px / 1 arial;
-        font-family: 'Great Vibes';
-        text-transform: uppercase;
-        text-shadow: 0 2px 0 #322705;
-        margin-top: 25px;
-    }
-} */
-
 @media (max-width: 1080px) {
     .title {
-        font-size: 6.5rem;
+        font-size: 5.5rem;
     }
 
     .section-front .subtitle {
