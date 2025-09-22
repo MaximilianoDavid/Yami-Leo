@@ -50,10 +50,13 @@ body {
     left: 90px;
     bottom: 65px;
     background: #EDCE7C;
-    background: linear-gradient(to bottom, #EDCE7C 15%, #B88414 100%);
+    background: linear-gradient(to bottom, #ffffff 15%, #ffffff 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: #00000000;
+    /* -webkit-text-stroke-width: 4.5px; */
+    /* -webkit-text-stroke-color: black; */
+    text-shadow: 2px 0px 20px #171d26;
 }
 
 .section-front-end img {
@@ -66,7 +69,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 2;
 }
 
 .section-central,
@@ -84,7 +87,7 @@ body {
     position: absolute;
     width: 100%;
     right: 0;
-    z-index: 2;
+    z-index: 1;
     top: -5px;
 }
 
@@ -92,7 +95,7 @@ body {
     position: absolute;
     width: 100%;
     right: 0;
-    z-index: 2;
+    z-index: 0;
     bottom: -10px;
 }
 
