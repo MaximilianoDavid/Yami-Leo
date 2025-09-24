@@ -341,7 +341,7 @@ main.loaded {
 
 .paragraph {
     background: #EDCE7C;
-    background: linear-gradient(to bottom, #EDCE7C 15%, #B88414 100%);
+    background: white;
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
