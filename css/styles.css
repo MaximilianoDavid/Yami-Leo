@@ -321,7 +321,7 @@ main.loaded {
     font-family: 'Great Vibes';
     font-size: 2.2rem;
     background: #EDCE7C;
-    background: white;
+    background: linear-gradient(to bottom, #EDCE7C 15%, #B88414 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -341,7 +341,7 @@ main.loaded {
 
 .paragraph {
     background: #EDCE7C;
-    background: white;
+    background: linear-gradient(to bottom, #EDCE7C 15%, #B88414 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
