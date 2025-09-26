@@ -517,11 +517,11 @@ main.loaded {
 /* Contenido del modal */
 .modal-content {
     background-color: #655b5bb8;
-    margin: 15% auto;
-    padding: 20px;
-    border-radius: 8px;
-    width: 80%;
-    max-width: 400px;
+    margin: 10% auto;
+    padding: 30px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 430px;
     text-align: center;
 }
 
