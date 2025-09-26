@@ -244,7 +244,8 @@ main.loaded {
 --------------------------- */
 
 
-.modal-content h4 h2 {
+.modal-content h4,
+.modal-content h2 {
     font-family: 'Great Vibes';
     font-size: 25px;
 }
@@ -253,6 +254,7 @@ main.loaded {
     font-family: 'Great Vibes';
     font-size: 20px;
 }
+
 
 
 
