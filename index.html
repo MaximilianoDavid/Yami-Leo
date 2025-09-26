@@ -58,7 +58,7 @@
                 <h2 class="subtitle animate__animated animate__zoomIn">Yami & Leo</h2>
             </div>
 
-            <a href="#play" class="btn-play" onclick="playMusic()" data-aos="zoom-in"></a>
+            <a href="#play" class="btn-play" onclick="activarScroll()" data-aos="zoom-in"></a>
             <!-- Barra decorativa -->
             <div class="barra-decoracion-botton">
                 <img src="images/corte2.png" id="play">
@@ -339,15 +339,7 @@
         setInterval(countdown, 1000);
     </script>
 
-    <!-- Play Music -->
-    <script>
-        document.addEventListener('click', function () {
-            const music = document.getElementById('bg-music');
-            music.play().catch(function (error) {
-                console.log("Autoplay bloqueado: ", error);
-            });
-        }, { once: true });
-    </script>
+
 
     <!-- Control User-Agent -->
     <script>
@@ -484,6 +476,23 @@
 
     </script>
     <!--script Particulas-->
+
+    <script>
+        function activarScroll() {
+            // habilitar scroll
+            document.body.style.overflow = "auto";
+            // quitar overlay
+            document.getElementById("overlay").style.display = "none";
+        }
+
+
+        document.addEventListener('click', function () {
+            const music = document.getElementById('bg-music');
+            music.play().catch(function (error) {
+                console.log("Autoplay bloqueado: ", error);
+            });
+        }, { once: true });
+    </script>
 
 
     <!-- Bootstrap JS -->
