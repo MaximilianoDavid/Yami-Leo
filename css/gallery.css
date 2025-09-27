@@ -9,13 +9,11 @@ html {
     scroll-behavior: smooth;
 }
 
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -23,193 +21,260 @@ body {
     color: #fff;
     line-height: 1.6;
     text-align: center;
-
+    padding: 10px;
 }
 
 .swipebox {
     padding: 2px;
 }
 
-.section-0 {
-    position: relative;
-    top: 120px;
-}
-
-.section-1 {
-    position: relative;
-    top: 35px;
-}
-
-.section-2 {
-    position: relative;
-    bottom: 120px;
-}
-
-.section-3 {
-    position: relative;
-    bottom: 120px;
-}
-
-.section-4 {
-    position: relative;
-    bottom: 120px;
-}
-
-
-.section-5 {
-    position: relative;
-    bottom: 120px;
-}
-
-
-
-.picture-1 {
-    width: 195px;
-    object-fit: cover;
-    visibility: visible;
-    animation-name: slideInLeft;
-    box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(334deg);
+/* --------------------------
+   GALERÍA BASE
+--------------------------- */
+#gallery img {
     border: 5px solid #faebd729;
-    position: relative;
-    bottom: 100px;
+    border-radius: 8px;
+    box-shadow: -1px 1px 12px rgba(0, 0, 0, 0.75);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    object-fit: cover;
+
+    /* Animación inicial */
+    opacity: 0;
+    /* transform: scale(0.95); */
+    animation: fadeIn 1s forwards;
+
 }
 
+#gallery img:hover {
+    transform: scale(1.05) rotate(1deg);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    cursor: pointer;
+}
+
+/* Animación secuencial */
+/* #gallery a:nth-child(1) img {
+    animation-delay: 0.2s;
+}
+
+#gallery a:nth-child(2) img {
+    animation-delay: 0.4s;
+}
+
+#gallery a:nth-child(3) img {
+    animation-delay: 0.6s;
+}
+
+#gallery a:nth-child(4) img {
+    animation-delay: 0.8s;
+}
+
+#gallery a:nth-child(5) img {
+    animation-delay: 1s;
+}
+
+#gallery a:nth-child(6) img {
+    animation-delay: 1.2s;
+}
+
+#gallery a:nth-child(7) img {
+    animation-delay: 1.4s;
+}
+
+#gallery a:nth-child(8) img {
+    animation-delay: 1.6s;
+}
+
+#gallery a:nth-child(9) img {
+    animation-delay: 1.8s;
+}
+
+#gallery a:nth-child(10) img {
+    animation-delay: 2s;
+} */
+
+/* podés seguir según la cantidad de fotos */
+
+/* @keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+} */
+
+/* --------------------------
+   ESTILO COLLAGE EN ESCRITORIO
+--------------------------- */
+
+
+/* Rotaciones personalizadas */
+.picture-1 {
+    width: 212px;
+
+    transform: rotate(355deg);
+
+}
 
 .picture-2 {
-    height: 280px;
-    margin-bottom: 5px;
-    object-fit: cover;
-    visibility: visible;
-    animation-name: slideInLeft;
+    width: 212px;
+
     transform: rotate(4deg);
-    -webkit-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    border: 5px solid #faebd729;
-    position: relative;
-    bottom: 65px;
 }
 
 .picture-3 {
-    width: 150px;
-    margin-bottom: 5px;
-    visibility: visible;
-    animation-name: slideInLeft;
-    -webkit-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(5deg);
-    border: 5px solid #faebd729;
-    position: relative;
-    bottom: 165px;
+    width: 212px;
+
+    transform: rotate(350deg)
 }
 
 .picture-4 {
-    width: 275px;
-    margin-bottom: 5px;
-    visibility: visible;
-    animation-name: slideInLeft;
-    -webkit-box-shadow: -1px 1px 12px 0px rgb(0 0 0 / 75%);
-    transform: rotate(352deg);
-    border: 5px solid #faebd729;
-    position: relative;
-    bottom: 100px;
-    z-index: 1;
+    width: 212px;
+
+    transform: rotate(3deg)
 }
 
 .picture-5 {
-    width: 220px;
-    margin-bottom: 5px;
-    object-fit: cover;
-    visibility: visible;
-    animation-name: slideInLeft;
-    transform: rotate(4deg);
-    -webkit-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    border: 5px solid #faebd729;
-    position: relative;
-    bottom: 184px;
-    right: 100px;
-    z-index: 1;
+    width: 212px;
+
+    transform: rotate(2deg);
 }
 
 .picture-6 {
-    width: 304px;
-    margin-bottom: 5px;
-    visibility: visible;
-    animation-name: slideInLeft;
-    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
-    transform: rotate(5deg);
-    border: 5px solid #faebd729;
-    position: relative;
-    bottom: 410px;
-    left: 105px;
+    width: 212px;
+
+    transform: rotate(10deg);
 }
 
 .picture-7 {
     width: 212px;
-    margin-bottom: 5px;
-    visibility: visible;
-    animation-name: slideInLeft;
-    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
-    transform: rotate(357deg);
-    border: 5px solid #faebd729;
+
+    transform: rotate(352deg);
+
 }
 
 .picture-8 {
-    width: 230px;
-    margin-bottom: 5px;
-    visibility: visible;
-    animation-name: slideInLeft;
-    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
-    transform: rotate(353deg);
-    border: 5px solid #faebd729;
-    position: relative;
-    bottom: 150px;
+    width: 212px;
+
+    transform: rotate(8deg);
 }
 
 .picture-9 {
-    width: 226px;
-    margin-bottom: 5px;
-    visibility: visible;
-    animation-name: slideInLeft;
-    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
-    transform: rotate(6deg);
-    border: 5px solid #faebd729;
-    position: relative;
-    bottom: 110px;
+    width: 212px;
+
+    transform: rotate(355deg);
+
 }
 
 .picture-10 {
     width: 212px;
-    margin-bottom: 5px;
-    visibility: visible;
-    animation-name: slideInLeft;
-    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
-    transform: rotate(359deg);
-    border: 5px solid #faebd729;
-    position: relative;
-    bottom: 140px;
+
+    transform: rotate(1deg);
+
 }
 
 .picture-11 {
     width: 212px;
-    margin-bottom: 5px;
-    visibility: visible;
-    animation-name: slideInLeft;
-    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
-    transform: rotate(9deg);
-    border: 5px solid #faebd729;
-    position: relative;
-    bottom: 100px;
+
+    transform: rotate(35deg);
+
 }
 
-.picture-12 {}
+.picture-12 {
+    width: 212px;
 
-.picture-13 {}
+    transform: rotate(5deg);
 
-.picture-14 {}
+}
 
-.picture-15 {}
+.picture-13 {
+    width: 212px;
 
-.picture-16 {}
+    transform: rotate(10deg);
 
-.picture-17 {}
+}
+
+.picture-14 {
+    width: 212px;
+
+    transform: rotate(353deg);
+
+}
+
+.picture-15 {
+    width: 212px;
+
+    transform: rotate(10deg);
+
+}
+
+.picture-16 {
+    width: 212px;
+
+    transform: rotate(355deg);
+
+}
+
+.picture-17 {
+    width: 212px;
+
+    transform: rotate(6deg);
+
+}
+
+.picture-18 {
+    width: 212px;
+
+    transform: rotate(9deg);
+
+}
+
+.picture-19 {
+    width: 212px;
+
+    transform: rotate(350deg);
+
+}
+
+.picture-20 {
+    width: 212px;
+
+    transform: rotate(2deg);
+}
+
+.picture-21 {
+    width: 212px;
+
+    transform: rotate(357deg);
+}
+
+
+/* --------------------------
+   RESPONSIVE: MÓVIL
+--------------------------- */
+/* @media (max-width: 768px) {
+    #gallery {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+        gap: 10px;
+        padding: 10px;
+    }
+
+    #gallery img {
+        transform: none !important;
+        position: static !important;
+        width: 100% !important;
+        bottom: auto !important;
+        left: auto !important;
+        right: auto !important;
+    }
+
+    .section-0,
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4,
+    .section-5 {
+        position: static !important;
+        top: auto !important;
+        bottom: auto !important;
+    }
+} */
