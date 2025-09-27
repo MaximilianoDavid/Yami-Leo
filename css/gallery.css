@@ -49,7 +49,7 @@ body {
     transform: scale(1.05) rotate(1deg);
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
     cursor: pointer;
-    filter: unset;
+
 }
 
 /* Animación secuencial */
@@ -110,140 +110,140 @@ body {
 /* Rotaciones personalizadas */
 .picture-1 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(355deg);
 
 }
 
 .picture-2 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(4deg);
 }
 
 .picture-3 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(350deg)
 }
 
 .picture-4 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(3deg)
 }
 
 .picture-5 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(2deg);
 }
 
 .picture-6 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(10deg);
 }
 
 .picture-7 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(352deg);
 
 }
 
 .picture-8 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(8deg);
 }
 
 .picture-9 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(355deg);
 
 }
 
 .picture-10 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(1deg);
 
 }
 
 .picture-11 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(35deg);
 
 }
 
 .picture-12 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(5deg);
 
 }
 
 .picture-13 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(10deg);
 
 }
 
 .picture-14 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(353deg);
 
 }
 
 .picture-15 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(10deg);
 
 }
 
 .picture-16 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(355deg);
 
 }
 
 .picture-17 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(6deg);
 
 }
 
 .picture-18 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(9deg);
 
 }
 
 .picture-19 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(350deg);
 
 }
 
 .picture-20 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(2deg);
 }
 
 .picture-21 {
     width: 212px;
-    filter: grayscale(1);
+
     transform: rotate(357deg);
 }
 
