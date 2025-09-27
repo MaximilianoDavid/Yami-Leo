@@ -1,0 +1,182 @@
+.swipebox {
+    padding: 2px;
+}
+
+.section-0 {
+    position: relative;
+    top: 120px;
+}
+
+.section-1 {
+    position: relative;
+    top: 35px;
+}
+
+.section-2 {
+    position: relative;
+    bottom: 120px;
+}
+
+.section-3 {
+    position: relative;
+    bottom: 120px;
+}
+
+.section-4 {
+    position: relative;
+    bottom: 120px;
+}
+
+
+.section-5 {
+    position: relative;
+    bottom: 120px;
+}
+
+
+
+.picture-1 {
+    width: 195px;
+    object-fit: cover;
+    visibility: visible;
+    animation-name: slideInLeft;
+    box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(334deg);
+    border: 5px solid #faebd729;
+    position: relative;
+    left: 15px;
+    top: 85px;
+}
+
+
+.picture-2 {
+    height: 280px;
+    width: 178px;
+    margin-bottom: 5px;
+    object-fit: cover;
+    visibility: visible;
+    animation-name: slideInLeft;
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    border: 5px solid #faebd729;
+}
+
+.picture-3 {
+    height: 200px;
+    width: 150px;
+    margin-bottom: 5px;
+    visibility: visible;
+    animation-name: slideInLeft;
+    -webkit-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(5deg);
+    border: 5px solid #faebd729;
+}
+
+.picture-4 {
+    width: 275px;
+    margin-bottom: 5px;
+    visibility: visible;
+    animation-name: slideInLeft;
+    -webkit-box-shadow: -1px 1px 12px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    -moz-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    -webkit-transform: rotate(-10deg);
+    transform: rotate(352deg);
+    border: 5px solid #faebd729;
+}
+
+.picture-5 {
+    width: 220px;
+    margin-bottom: 5px;
+    visibility: visible;
+    animation-name: slideInLeft;
+    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
+    transform: rotate(19deg);
+    border: 5px solid #faebd729;
+}
+
+.picture-6 {
+    width: 360px;
+    margin-bottom: 5px;
+    visibility: visible;
+    animation-name: slideInLeft;
+    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
+    transform: rotate(5deg);
+    border: 5px solid #faebd729;
+}
+
+.picture-7 {
+    width: 212px;
+    margin-bottom: 5px;
+    visibility: visible;
+    animation-name: slideInLeft;
+    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
+    transform: rotate(357deg);
+    border: 5px solid #faebd729;
+}
+
+.picture-8 {
+    width: 230px;
+    margin-bottom: 5px;
+    visibility: visible;
+    animation-name: slideInLeft;
+    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
+    transform: rotate(353deg);
+    border: 5px solid #faebd729;
+    position: relative;
+    bottom: 150px;
+}
+
+.picture-9 {
+    width: 226px;
+    margin-bottom: 5px;
+    visibility: visible;
+    animation-name: slideInLeft;
+    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
+    transform: rotate(6deg);
+    border: 5px solid #faebd729;
+    position: relative;
+    bottom: 110px;
+}
+
+.picture-10 {
+    width: 212px;
+    margin-bottom: 5px;
+    visibility: visible;
+    animation-name: slideInLeft;
+    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
+    transform: rotate(359deg);
+    border: 5px solid #faebd729;
+    position: relative;
+    bottom: 140px;
+}
+
+.picture-11 {
+    width: 212px;
+    margin-bottom: 5px;
+    visibility: visible;
+    animation-name: slideInLeft;
+    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
+    transform: rotate(357deg);
+    border: 5px solid #faebd729;
+}
+
+.picture-12 {}
+
+.picture-13 {}
+
+.picture-14 {}
+
+.picture-15 {}
+
+.picture-16 {}
+
+.picture-17 {}
