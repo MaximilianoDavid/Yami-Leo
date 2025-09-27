@@ -73,30 +73,24 @@ body {
     transform: rotate(334deg);
     border: 5px solid #faebd729;
     position: relative;
-    left: 15px;
-    top: 85px;
+    bottom: 100px;
 }
 
 
 .picture-2 {
     height: 280px;
-    width: 178px;
     margin-bottom: 5px;
     object-fit: cover;
     visibility: visible;
     animation-name: slideInLeft;
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
-    transform: rotate(-10deg);
-    box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
+    transform: rotate(4deg);
     -webkit-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
     border: 5px solid #faebd729;
+    position: relative;
+    bottom: 65px;
 }
 
 .picture-3 {
-    height: 200px;
     width: 150px;
     margin-bottom: 5px;
     visibility: visible;
@@ -105,6 +99,8 @@ body {
     -webkit-transform: rotate(-10deg);
     transform: rotate(5deg);
     border: 5px solid #faebd729;
+    position: relative;
+    bottom: 165px;
 }
 
 .picture-4 {
@@ -113,32 +109,39 @@ body {
     visibility: visible;
     animation-name: slideInLeft;
     -webkit-box-shadow: -1px 1px 12px 0px rgb(0 0 0 / 75%);
-    -moz-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
-    -moz-transform: rotate(-10deg);
-    -o-transform: rotate(-10deg);
-    -webkit-transform: rotate(-10deg);
     transform: rotate(352deg);
     border: 5px solid #faebd729;
+    position: relative;
+    bottom: 100px;
+    z-index: 1;
 }
 
 .picture-5 {
     width: 220px;
     margin-bottom: 5px;
+    object-fit: cover;
     visibility: visible;
     animation-name: slideInLeft;
-    box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
-    transform: rotate(19deg);
+    transform: rotate(4deg);
+    -webkit-box-shadow: -1px 1px 12px 0px rgba(0, 0, 0, 0.75);
     border: 5px solid #faebd729;
+    position: relative;
+    bottom: 184px;
+    right: 100px;
+    z-index: 1;
 }
 
 .picture-6 {
-    width: 360px;
+    width: 304px;
     margin-bottom: 5px;
     visibility: visible;
     animation-name: slideInLeft;
     box-shadow: rgb(0 0 0 / 75%) -1px 1px 12px 0px;
     transform: rotate(5deg);
     border: 5px solid #faebd729;
+    position: relative;
+    bottom: 410px;
+    left: 105px;
 }
 
 .picture-7 {
