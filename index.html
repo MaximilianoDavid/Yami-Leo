@@ -313,8 +313,8 @@
 
 
 
-                <!-- <a href="https://maps.app.goo.gl/ASfHmCYKfxZMdEsx8" class="btn btn-primary"><i
-                        class="fa-solid fa-location-dot"></i>Cómo llegar</a> -->
+                <a id="fc" href="https://maps.app.goo.gl/ASfHmCYKfxZMdEsx8" class="btn btn-primary"><i
+                        class="fa-solid fa-location-dot"></i>Cómo llegar</a>
             </div>
 
         </section>
@@ -331,6 +331,7 @@
             if (distance < 0) {
                 document.querySelector(".countdown").innerHTML = "<h2 class='subtitle-paragraph'>¡El gran día ha llegado! 🎉</h2>";
                 document.getElementById("fa").style.display = "none"
+                document.getElementById("fc").style.display = "none"
                 document.getElementById("fb").innerHTML = "<a href='https://maps.app.goo.gl/ASfHmCYKfxZMdEsx8' class='btn btn-primary'><i class='fa-solid fa-location-dot'></i>Cómo llegar</a>"
                 return;
             }
